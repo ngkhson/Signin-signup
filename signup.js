@@ -48,6 +48,7 @@ function validform(event) {
         alert('Vui lòng kiểm tra lại!');
     }
     else {
-        alert('Đăng ký thành công!');
+        window.location.href = "index.html";
+        alert('Đăng nhập thành công!');
     }
 }

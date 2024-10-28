@@ -1,4 +1,10 @@
 body{
+    margin: 0 auto;
+    background-image: url(Background.png);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
     background-color: #facb01;
 }
 *{
@@ -61,6 +67,7 @@ article{
     position: absolute;
     top: 10px;
     text-align: center;
+    box-shadow: 0 0 10px rgb(55, 54, 54);
 }
 h3{
     font-size: 35px;
