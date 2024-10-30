@@ -1,19 +1,15 @@
 body{
     margin: 0 auto;
-    background-image: url(Background.png);
+    background-image: url(Background.jpg);
     background-size: cover;
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: #facb01;
+    background-color: #5a5a4f;
 }
 *{
     box-sizing: border-box;
     font-family: roboto;
-}
-[class*="col-"]{
-    float: left;
-    padding: 10px;
 }
  /* for smartphone*/
  [class*="col-"]{
@@ -50,7 +46,6 @@ body{
     .col-12{width: 100%;} 
 }
 
-
 .container{
     display: flex;
     flex-wrap: wrap;
@@ -65,7 +60,7 @@ article{
     box-sizing: border-box;
     padding: 20px;
     position: absolute;
-    top: 10px;
+    top: 50px;
     text-align: center;
     box-shadow: 0 0 10px rgb(55, 54, 54);
 }
@@ -92,25 +87,24 @@ h3{
 .signinbutton{
     width: 100%;
     padding: 10px;
+    margin: 10px 0 10px 0;
     font-size: 20px;
     background-color: #271756;
-    border-radius: 7px;
+    border-radius: 10px;
     color: #facb01;
     border: 0;
-    margin: 10px 0 10px 0;
     cursor: pointer;
 }
-.signinbutton:hover{
+.signinbutton2:hover{
     background-color: #402a85;
-}
-form+div{
-    padding: 20px;
 }
 .option{
     padding: 10px 0 10px 0;
+    display: flex;
+    justify-content: space-between;
 }
 .option button{
-    width: 32%;
+    width: 115px;
     height: 40px;
     color: white;
     border-radius: 7px;
@@ -138,14 +132,9 @@ form+div{
 .option a:last-child button:hover{
     background-color: rgb(50, 50, 50);
 }
-.agreebox{
-    font-size: 16px;
-    padding: 10px 0 10px 0;
-    text-align: justify;
-}
 .signup{
+    padding: 10px 0 0 0;
     font-size: 16px;
-    padding: 10px;
 }
 .warning{
     color: red;
